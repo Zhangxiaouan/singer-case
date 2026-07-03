@@ -52,6 +52,11 @@ dual-vector-case/
 | conversation-organizer | 长对话与 AI 协作过程整理为带证据状态的可确认材料 |
 | context-doc-rules | 求职工具链 Context 仓库文档命名、头部与更新记录规则 |
 
+新增说明：
+
+- `conversation-organizer`：面向 AI 产品经理与 AI 的长对话 / Vibe Coding 场景，使用简化 Gioia + 轻量 IBIS 提取用户信号，包括方向判断、问题与痛点、想法与假设、决策与理由、疑问与不确定性、偏好与边界、情绪与强度和未分类信息；输出带证据状态的整理稿，写入前必须等待用户确认。
+- `context-doc-rules`：面向求职工具链 Context 仓库的文档规则 Skill，按文档类型路由到通用规则、PRD 规则、工作记录规则、草稿与参考资料规则、已确认上下文文档规则和最低检查清单；只处理文件命名、一级标题、头部信息和更新记录，不决定目录分层。
+
 ### 🔬 研究 · research
 
 | Skill | 用途 |
@@ -74,7 +79,7 @@ dual-vector-case/
 |------|------|-----------|
 | 写作、校订、叙事 | `writing/` | 写作、校对、文章、随笔、叙事 |
 | UI、视觉、前端 | `design/` | 设计、界面、配色、字体、组件、前端 |
-| 开发、提示词、Agent | `engineering/` | 开发、Agent、Hook、Skill、提示词、Bug |
+| 开发、提示词、Agent | `engineering/` | 开发、Agent、Hook、Skill、提示词、Bug、Context、文档规则 |
 | 分析、调研、研究 | `research/` | 研究、分析、调研、筛选、竞品 |
 | 系统配置、工具安装 | `tools/` | 配置、安装、字体、环境、MCP |
 
