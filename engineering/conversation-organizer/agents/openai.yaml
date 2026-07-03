@@ -1,0 +1,4 @@
+interface:
+  display_name: "对话整理"
+  short_description: "把长对话和AI协作过程整理成带证据状态的可确认结构化材料"
+  default_prompt: "Use $conversation-organizer to organize this long AI collaboration conversation into evidence-backed structured notes."

@@ -49,6 +49,8 @@ dual-vector-case/
 | bug-manager | Bug 生命周期管理，记录在 `docs/bugs.md` |
 | prompt-architect | 提示词架构与优化 |
 | context-engineer | 结构化 Context 仓库构建与维护 |
+| conversation-organizer | 长对话与 AI 协作过程整理为带证据状态的可确认材料 |
+| context-doc-rules | 求职工具链 Context 仓库文档命名、头部与更新记录规则 |
 
 ### 🔬 研究 · research
 

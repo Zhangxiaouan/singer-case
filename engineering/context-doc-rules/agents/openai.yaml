@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档命名与头部规则"
+  short_description: "规范上下文仓库文档命名、标题和头部信息"
+  default_prompt: "使用 $context-doc-rules 为新的上下文仓库文档选择命名、标题和头部模板。"
